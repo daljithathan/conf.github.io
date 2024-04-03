@@ -134,7 +134,22 @@
           </p>
 
           <br>
-          <form name="contact" action="thank-you" method="post" id="form-contact" netlify>
+            <form
+             action="https://formspree.io/f/xyyrnayw"
+             method="POST"
+           >
+             <label>
+               Your email:
+               <input type="email" name="email">
+             </label>
+             <label>
+               Your message:
+               <textarea name="message"></textarea>
+             </label>
+             <!-- your other form fields go here -->
+             <button type="submit">Send</button>
+           </form>
+<!--           <form name="contact" action="thank-you" method="post" id="form-contact" netlify>
             <div class="row margin-4 no-margin-rl">
               <input type="text" placeholder="Your Name" name="name" class="required" required>
               <input type="email" placeholder="Your Email" name="email" class="required email" required>
@@ -155,7 +170,7 @@
               </button>
             </div>
             <!-- //.row -->
-          </form>
+          </form> -->
         </div>
         <!-- //.col-md-5 -->
 
